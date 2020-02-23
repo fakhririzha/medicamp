@@ -1,6 +1,6 @@
 /* Main Styling */
 
-body {
+body.bg-changing {
     /* font-family: 'Rubik', sans-serif; */
     font-family: 'Fredoka One';
     background: linear-gradient(-67deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -398,6 +398,26 @@ nav.scrolled .garis {
 
 
 /* END Contact Form Section */
+
+
+/* ================================================================================ */
+
+
+/* Dashboard Section */
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.card {
+    flex: 0 0 auto;
+}
+
+
+/* END Dashboard Section */
 
 
 /* ================================================================================ */
