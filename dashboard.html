@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Fakhri Rizha Ananda" />
+    <title>MediCamp</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- CSS Library -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/floating_placeholder.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/arrow.css" rel="stylesheet" />
+
+    <!-- Favicons -->
+    <!-- <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png"> -->
+    <!-- <link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml"> -->
+    <meta name="theme-color" content="#563d7c" />
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" onclick="$('#header').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});" style="cursor: pointer;">
+                <div class="logo-nav"></div>
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> -->
+            <div class="dropdown">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Halo, User!
+                    </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
+
+            <!-- <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link custom-nav" onclick="$('#about-us').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
+                            Tentang Kami
+                            <div class="garis" id="br"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-nav" onclick="$('#how-it-works').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
+                            Cara Kerja
+                            <div class="garis" id="br"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-nav" onclick="$('#product').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
+                            Produk
+                            <div class="garis" id="br"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-nav" onclick="$('#testimoni').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
+                            Testimoni
+                            <div class="garis" id="br"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-custom-button" style="margin-left: 10px;">
+                        <a class="nav-link custom-nav" onclick="$('#contact-us').animatescroll({scrollSpeed:1500,easing:'easeInOutBack'});">
+                            Hubungi Kami
+                        </a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </nav>
+
+    <main role="main">
+        <section id="dashboard">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img class="img-thumbnail logo-medicamp" src="assets/img/Medicamp.jpg" width="128" alt="logo">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h4 class="text-white">Masuk dahulu untuk melanjutkan</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <form class="form-signin">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+
+                                    <div class="form-label-group">
+                                        <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Alamat e-mail" required>
+                                        <label for="inputEmail">Alamat e-mail</label>
+                                    </div>
+
+                                    <div class="form-label-group">
+                                        <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Kata Sandi" required>
+                                        <label for="inputPassword">Password</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 tombol-contact-bawah">
+                                            <a class="btn btn-success btn-block text-semiblack form-custom-button drop-shadow"><i class="fas fa-pencil-alt"></i> Belum punya akun? Daftar</a>
+                                        </div>
+                                        <div class="col-12 col-md-6 tombol-contact-atas">
+                                            <button type="submit" class="btn btn-primary btn-block text-semiblack form-custom-button animated pulse infinite delay-2s btn-login drop-shadow"><i class="fas fa-sign-in-alt"></i> Login</button>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a class="text-white" href="/forgot.html">Lupa Password?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- <footer class="footer-custom text-white">
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <aside class="widget widget_text">
+                        <div class="textwidget">
+                            <p><img src="assets/img/Medicamp.png" width="128" alt="Arah Teknologi"></p>
+                            <p>Arah Teknologi, Sebuah Software House dari Medan.
+                                <i>((masukkan slogan jika perlu disini))</i>
+                            </p>
+                        </div>
+                        <a class="nav-item text-white" href="">Home</a><br>
+                        <a class="nav-item text-white" href="#about">About Us</a><br>
+                        <a class="nav-item text-white" href="portfolio">Portfolio</a><br>
+
+
+                    </aside>
+                </div>
+                <br>
+                <div class="col-md-6 col-lg-4">
+                    <aside class="widget widget_recent_entries">
+                        <div class="widget-title">
+                            <span><b>CONTACT</b></span>
+                            <br>
+                            <div class="icon-box-content">
+                                <p><i class="fa fa-envelope"></i> info@arahteknologi.com <br/> <i class="fa fa-phone"></i> +62 812 3456 7890<br><i class="fab fa-whatsapp"></i> +62 812 3456 7890</p>
+                            </div>
+                            <br>
+                            <div class="icon-box-content">
+                                <p><i class="fa fa-map-marker"></i> Jl. Universitas No. 14 Fakultas Ilmu Komputer dan Teknologi Universitas Sumatera Utara
+                                    <br>
+                            </div>
+
+
+                        </div>
+
+                    </aside>
+                </div>
+
+                <br>
+                <div class="col-md-6 col-lg-4">
+                    <aside class="widget widget_recent_entries">
+                        <div class="widget-title">
+                            <span><b>SOCIAL MEDIA</b></span><br>
+                        </div>
+                        <i class="fab fa-instagram fa-2x text-white"></i>
+                        <i class="fab fa-facebook fa-2x text-white"></i>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <a class="nav-item text-white" href="./#faq">FAQ</a><br>
+                        <a class="nav-item text-white" href="tos">Term of Service</a><br>
+
+                        <a class="nav-item text-white" href="policy">Privacy Policy</a><br>
+                        <a class="nav-item text-white" href="credits">Credits</a>
+
+
+                        </ul>
+                    </aside>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">© 2020 Arah Teknologi <br>All Right Reserved</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/SmoothScroll.min.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!-- <script src="assets/js/animatescroll.min.js"></script> -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/send_to_whatsapp.js"></script>
+    <script src="assets/js/custom_underline.js"></script>
+</body>
+
+</html>

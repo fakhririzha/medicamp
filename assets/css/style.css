@@ -46,14 +46,14 @@ section {
 .logo-nav {
     width: 50px;
     min-height: 50px;
-    background: url('../img/Logo.png') no-repeat;
+    background: url('../img/Medicamp.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     transition: background 1.45s ease-in;
 }
 
 .logo-nav-white {
-    background: url('../img/Logo_White.png') no-repeat;
+    background: url('../img/Medicamp.jpg') no-repeat;
     width: 50px;
     min-height: 50px;
     background-size: cover;
@@ -76,7 +76,7 @@ nav.scrolled {
     .logo-nav {
         width: 50px;
         min-height: 50px;
-        background: url('../img/Logo_White.png') no-repeat;
+        background: url('../img/Medicamp.jpg') no-repeat;
         background-size: cover;
         background-position: center;
     }
