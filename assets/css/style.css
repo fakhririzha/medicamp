@@ -1,8 +1,10 @@
 /* Main Styling */
 
-body.bg-changing {
-    /* font-family: 'Rubik', sans-serif; */
+body {
     font-family: 'Fredoka One';
+}
+
+body.bg-changing {
     background: linear-gradient(-67deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
@@ -412,7 +414,11 @@ nav.scrolled .garis {
     -webkit-overflow-scrolling: touch;
 }
 
-.card {
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.card-teori {
     flex: 0 0 auto;
 }
 
