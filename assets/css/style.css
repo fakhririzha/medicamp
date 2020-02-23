@@ -2,7 +2,22 @@
 
 body {
     /* font-family: 'Rubik', sans-serif; */
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Fredoka One';
+    background: linear-gradient(-67deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 section {
@@ -344,9 +359,27 @@ nav.scrolled .garis {
 }
 
 @media screen and (max-width: 576px) {
-    .tombol-contact-atas {
+    .tombol-contact-bawah {
         margin-bottom: .5em;
     }
+}
+
+.btn-success {
+    background-color: #8BC443
+}
+
+.btn-primary {
+    background-color: #2DA7E6;
+}
+
+.form-custom-button {
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.logo-medicamp {
+    border: 2px solid white;
+    border-radius: 64px;
 }
 
 
