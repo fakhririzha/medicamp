@@ -451,6 +451,10 @@ nav.scrolled .garis {
     flex: 0 0 auto;
 }
 
+.pt-sans {
+    font-family: 'PT Sans' !important;
+}
+
 
 /* END Dashboard Section */
 
