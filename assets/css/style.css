@@ -160,6 +160,11 @@ nav.scrolled .garis {
     border: 1px solid rgb(35, 35, 35);
 }
 
+.card-noborder-kategori {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
 
 /* END Navs, Images, Logo, and others */
 
