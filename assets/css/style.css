@@ -137,6 +137,30 @@ nav.scrolled .garis {
 }
 
 
+/* .gambar-dokter-wrapper {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.gambar-dokter {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    /* align-self: flex-end; */
+    width: 84px;
+    z-index: 999;
+}
+
+.nav-bawah {
+    font-size: .75rem;
+}
+
+.card-noborder {
+    border-radius: 0px;
+    border: 1px solid rgb(35, 35, 35);
+}
+
+
 /* END Navs, Images, Logo, and others */
 
 
