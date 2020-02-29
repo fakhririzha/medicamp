@@ -49,14 +49,14 @@ section {
 .logo-nav {
     width: 50px;
     min-height: 50px;
-    background: url('../img/Medicamp.jpg') no-repeat;
+    background: url('../img/Medicamp.png') no-repeat;
     background-size: cover;
     background-position: center;
     transition: background 1.45s ease-in;
 }
 
 .logo-nav-white {
-    background: url('../img/Medicamp.jpg') no-repeat;
+    background: url('../img/Medicamp.png') no-repeat;
     width: 50px;
     min-height: 50px;
     background-size: cover;
@@ -65,7 +65,7 @@ section {
 }
 
 nav.scrolled {
-    background: linear-gradient(to right, #7FB3E0, #3575BB);
+    background: linear-gradient(45deg, #2DA7E6, #8BC443);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #fff;
     transition: background 1s ease-in;
@@ -73,13 +73,13 @@ nav.scrolled {
 
 @media screen and (max-width: 567.8px) {
     nav {
-        background: linear-gradient(to right, #7FB3E0, #3575BB);
+        background: linear-gradient(45deg, #2DA7E6, #8BC443);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .logo-nav {
         width: 50px;
         min-height: 50px;
-        background: url('../img/Medicamp.jpg') no-repeat;
+        background: url('../img/Medicamp_small.png') no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -110,6 +110,11 @@ nav.scrolled .nav-custom-button {
 
 .nav-custom-button>a {
     color: white !important;
+}
+
+.btn-primary {
+    background: #2DA7E6;
+    border: 2px solid white;
 }
 
 .garis {
@@ -167,6 +172,54 @@ nav.scrolled .garis {
 .card-noborder-kategori {
     margin-left: 3vw;
     margin-right: 3vw;
+}
+
+.bg-card-teori {
+    background-image: url('../img/Teori.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-card-anatomi {
+    background-image: url('../img/Anatomi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-card-mnemonic {
+    background-image: url('../img/Mnemonic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-card-farmakologi {
+    background-image: url('../img/Farmakologi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-card-kamus {
+    background-image: url('../img/Kamus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-card-penunjang {
+    background-image: url('../img/Penunjang.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-card-live {
+    background-image: url('../img/Live.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-card-sharing {
+    background-image: url('../img/Sharing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -310,8 +363,8 @@ nav.scrolled .garis {
     height: 10px;
 }
 
-.card {
-    border: 1px solid #c9d0d878
+.text-white .card {
+    border: 1px solid darkslategrey;
 }
 
 .btn-custom-produk {
@@ -326,7 +379,7 @@ nav.scrolled .garis {
 }
 
 .card-img-top {
-    width: 55%;
+    /* width: 55%; */
 }
 
 .card-highlight {
