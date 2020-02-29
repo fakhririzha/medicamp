@@ -5,7 +5,8 @@ body {
 }
 
 body.bg-changing {
-    background: linear-gradient(-67deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-67deg, #23a6d5, #23d5ab);
+    /* background: linear-gradient(-67deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
 }
@@ -147,8 +148,11 @@ nav.scrolled .garis {
     right: 1rem;
     bottom: 1rem;
     /* align-self: flex-end; */
-    width: 84px;
+    width: 55vw;
     z-index: 999;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
 
 .nav-bawah {
