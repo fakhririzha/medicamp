@@ -166,7 +166,7 @@ nav.scrolled .garis {
 
 .card-noborder {
     border-radius: 0px;
-    border: 1px solid rgb(35, 35, 35);
+    /* border: 1px solid rgb(35, 35, 35); */
 }
 
 .card-noborder-kategori {
@@ -218,6 +218,12 @@ nav.scrolled .garis {
 
 .bg-card-sharing {
     background-image: url('../img/Sharing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-menu-tryout {
+    background-image: url('../img/Tryout.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
