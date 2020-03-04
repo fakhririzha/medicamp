@@ -148,16 +148,32 @@ nav.scrolled .garis {
     justify-content: space-around;
 } */
 
-.gambar-dokter {
-    position: absolute;
-    right: 1rem;
-    bottom: 1rem;
-    /* align-self: flex-end; */
-    width: 55vw;
-    z-index: 999;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
+@media screen and (max-width: 320.99px) {
+    .gambar-dokter {
+        position: absolute;
+        right: 1rem;
+        bottom: 1rem;
+        /* align-self: flex-end; */
+        width: 45vw;
+        z-index: 999;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .gambar-dokter {
+        position: absolute;
+        right: 1rem;
+        bottom: 1rem;
+        /* align-self: flex-end; */
+        width: 55vw;
+        z-index: 999;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
 }
 
 .nav-bawah {
