@@ -168,6 +168,20 @@ nav.scrolled .garis {
         right: 1rem;
         bottom: 1rem;
         /* align-self: flex-end; */
+        width: 35vw;
+        z-index: 999;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .gambar-dokter {
+        position: absolute;
+        right: 1rem;
+        bottom: 1rem;
+        /* align-self: flex-end; */
         width: 55vw;
         z-index: 999;
         animation-duration: 2s;
